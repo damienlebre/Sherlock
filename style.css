@@ -1,22 +1,144 @@
-
-
 body{
-        font-family: 'Berkshire Swash', cursive;
-        color: #c48c49;
+  font-family: 'Berkshire Swash', cursive;
+  color: #F8D9AD;  
 }
 
- #navbarText ul li a{
-         color: #c48c49;
+.navbar-dark{
+  transition:500ms ease;
+  background:transparent;
+}
+
+.navbar-dark, footer {
+  background:rgba(0,0,0,0.6);
+}
+
+.nav-link{
+  color: #F8D9AD!important;
+  font-size: x-large;         
+}
+
+.nav-link:hover{
+ color: #AA0705!important;
+ zoom: 110%; 
+ text-decoration-style: wavy;     
+}
+
+.navbar-brand:hover{
+ zoom: 110%;
+}
+
+#image1{
+  background-image: url(assets/images/1.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center;   
+  margin-bottom: -45px; 
+  
+}
+
+
+h1{
+  color: white;
+}
+h1 span{
+  color: #AA0705;
+}
+
+h2, h3{
+  color: whitesmoke;
+}
+#frogicon{
+  width: 10em;
+  /* z-index: 10; */
  }
 
-#image1 {
-        background-image: url(assets/images/Cover+Logo_1080.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-                      
+.link-game{
+  position: absolute;
+  
 }
 
 
-#image1 h5{
-        color: #c48c49;
-} 
+#image2{
+  background-image: url(assets/images/3-tiny.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center;   
+  margin-bottom: -45px; 
+  margin-top: -45px;
+  
+}
+
+.banner-2{
+  
+  background-color : rgb(0,0,0,0.9);
+  -webkit-box-shadow : 0px 0px 33px 33px rgb(0,0,0, 0.9); 
+  box-shadow : 0px 0px 33px 33px rgb(0,0,0, 0.9);
+  border-radius : 10%;
+  
+  
+}
+
+.elementor-shape {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  height: 1vh;        
+  background-color: #F8D9AD;
+}
+
+#image3 {
+  background-image: url(assets/images/key_art_red_chapter_one_4K_tiny.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  height: 100vh;   
+  margin-bottom: -45px; 
+  margin-top: -45px;
+             
+}       
+
+
+footer
+{
+  background-color: black;
+
+}
+footer h6{
+  text-align: center;
+  
+}
+.reseauxSociaux ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .reseauxSociaux ul li a{
+  font-size: 3.5em;
+}
+footer .facebook{
+  background: #fff;
+  color: #3b5998;
+ 
+}
+
+footer .twitter{
+  background: #fff;
+  color: #26a7de;
+}
+footer .youtube{
+  background: #fff;
+  color: #b2071d;
+  
+  
+}
+footer a{
+  width: 60px;
+  height: 60px;
+}
+
+
+/* PAGE FORMULAIRE CONTACT */
+
