@@ -1,0 +1,22 @@
+
+
+body{
+        font-family: 'Berkshire Swash', cursive;
+        color: #c48c49;
+}
+
+ #navbarText ul li a{
+         color: #c48c49;
+ }
+
+#image1 {
+        background-image: url(assets/images/Cover+Logo_1080.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+                      
+}
+
+
+#image1 h5{
+        color: #c48c49;
+} 
